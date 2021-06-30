@@ -1,0 +1,128 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+</style>
+
+body{
+    font-family: 'PT Serif', serif;
+}
+.headSearch{
+    float: right;
+}
+.mymenu{
+    
+}
+.mymenu li{
+    padding: 0px 10px;
+    border-right: 1px solid rgb(151, 143, 143);
+}
+.mymenu li a{ 
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.mymenu li a p{
+    text-transform: lowercase;
+}
+.mynavmenu{
+    border-top: 1px solid black;
+}
+.socialicone{
+    float: right;
+    padding: 5px;
+    text-align: right;
+}
+.socialicone i{
+    padding: 7px;
+    /* justify-content: right; */
+    background:#333333;
+    border-radius: 10px;
+    color: white;
+    transition: .2s;
+}
+.socialicone i:hover{
+    transform: rotate(30deg);
+}
+
+
+#mainTitle{
+    text-align: center;
+}
+#teamTitleDex{
+    text-align: center;
+}
+.workbox{
+    text-align: center;
+}
+.projectTitle{}
+.projectTitle h5{
+    text-align: right;
+}
+.projectTitle h1{
+    font-size: 40px;
+    
+}
+#Project{
+    margin-top: 10px;
+    
+    padding-top: 10px;
+}
+
+
+.linkbox{}
+.linkbox h4{
+    text-align: center;
+}
+.linkbox ul{
+    
+}
+.linkbox ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+.linkbox ul li a{
+    text-decoration: none;
+}
+.cardText{
+    color: #d54346;
+}
+.myCard{
+    border: none;
+    background: rgb(235, 231, 231);
+    box-shadow: 3px 9px 19px 0px;
+    transition: .5s;
+}
+.myCard:hover{
+    transform: scale(0.99);
+}
+.Pwk{
+    color: #d44346;
+}
+.wButton{
+    background: #d44346;
+    border: none;
+}
+#abotAria{
+    margin-top: 50px;
+    background: #d44346;
+    border-top: 5px solid #871f21;
+    color: white;
+}
+#abotAria a{
+    color: #631618;
+}
+.myFButton{
+    background:#631618 ;
+    border: none;
+
+}
+.wCard{
+    border: none;
+}
+.myBoxLink{}
+.myBoxLink li{
+    border-bottom: 1px solid #d85255;
+}
+#copright{
+    text-align: center;
+    background: #631618;
+    color: white;
+}
